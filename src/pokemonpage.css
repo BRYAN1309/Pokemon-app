@@ -1,0 +1,63 @@
+/* src/pages/PokemonPage.css */
+.pokemon-page {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  .pokemon-header {
+    margin-bottom: 2rem;
+  }
+  
+  .pokemon-name {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .pokemon-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pokemon-details {
+    margin-top: 2rem;
+  }
+  
+  .pokemon-details h2 {
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .ability-list, .stats-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .ability-item, .stat-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ability-item {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .stat-item {
+    font-size: 1rem;
+    color: #444;
+  }
+  
